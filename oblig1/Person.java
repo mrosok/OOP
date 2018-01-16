@@ -13,12 +13,24 @@ public class Person {
 		return fornavn;
 	}
 
+	public void setFornavn(String fornavn) {
+		this.fornavn = fornavn;
+	}
+	
 	public String getEtternavn() {
 		return etternavn;
 	}
 
+	public void setEtternavn(String etternavn) {
+		this.etternavn = etternavn;
+	}
+
 	public int getAlder() {
 		return alder;
+	}
+
+	public void setAlder(int alder) {
+		this.alder = alder;
 	}
 
 }
